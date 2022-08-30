@@ -10,13 +10,13 @@ def binary_search(list, key):
         mid = (high + low) // 2
     # Check If key is present at mid
         if list[mid] < key:
-          low = mid + 1
+            low = mid + 1
     # If key is greater, compare to right of mid
         elif list[mid] > key:
-           high = mid + 1
+            high = mid + 1
     # If key is smaller, compare to left of mid
         else:
-           return mid
+            return mid
     return -1
 
 
